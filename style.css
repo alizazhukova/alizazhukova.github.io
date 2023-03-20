@@ -1,0 +1,163 @@
+body{
+    background-color: rgb(208, 157, 157);
+    margin: 0px;
+}
+.heart{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+    position: absolute;
+    left: 45%; top: 45%;
+    background-image: url(image/фон.jpg);
+    background-size: 100%;
+    transform: rotate(-45deg);
+}
+.heart:before,
+.heart:after{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-image: url(image/фон.jpg);
+    background-size: 100%;
+    border-radius: 50%;
+}
+.heart:before{
+    top: -25px;
+    left: 0;
+}
+.heart:after{
+    left: 25px;
+    top: 0;
+}
+@keyframes heartbeat{
+    0%{
+      transform: scale( 1 );
+    }
+    20%{
+      transform: scale( 1.25 )
+        translateX(5%)
+        translateY(5%);
+    }
+    40%{
+      transform: scale( 1.5 )
+        translateX(9%)
+        translateY(10%);
+    }
+}
+.heart {
+    animation: heartbeat 1s infinite;
+}
+.heart1{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+    position: absolute;
+    left: 30%; top: 45%;
+    background-image: url(image/фон1.jpg);
+    background-size: 100%;
+    transform: rotate(-45deg);
+}
+.heart1:before,
+.heart1:after{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-image: url(image/фон1.jpg);
+    background-size: 100%;
+    border-radius: 50%;
+}
+.heart1:before{
+    top: -25px;
+    left: 0;
+}
+.heart1:after{
+    left: 25px;
+    top: 0;
+}
+@keyframes heartbeat{
+    0%{
+      transform: scale( 1 );
+    }
+    20%{
+      transform: scale( 1.25 )
+        translateX(5%)
+        translateY(5%);
+    }
+    40%{
+      transform: scale( 1.5 )
+        translateX(9%)
+        translateY(10%);
+    }
+}
+.heart1 {
+    animation: heartbeat 1s infinite;
+}
+.heart2{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+    position: absolute;
+    left: 60%; top: 45%;
+    background-image: url(image/фон2.jpg);
+    background-size: 100%;
+    transform: rotate(-45deg);
+}
+.heart2:before,
+.heart2:after{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-image: url(image/фон2.jpg);
+    background-size: 100%;
+    border-radius: 50%;
+}
+.heart2:before{
+    top: -25px;
+    left: 0;
+}
+.heart2:after{
+    left: 25px;
+    top: 0;
+}
+@keyframes heartbeat{
+    0%{
+      transform: scale( 1 );
+    }
+    20%{
+      transform: scale( 1.25 )
+        translateX(5%)
+        translateY(5%);
+    }
+    40%{
+      transform: scale( 1.5 )
+        translateX(9%)
+        translateY(10%);
+    }
+}
+.heart2 {
+    animation: heartbeat 1s infinite;
+}
+.text{
+    margin-top: 30px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-right: 25px;
+    text-shadow: 4px 8px 1px rgb(110, 67, 67);
+}
+.div{
+    background-color: rgb(177, 101, 101);
+    height: 400px;
+    width: 900px;
+    margin-left: 260px;
+    border-radius: 20px;
+    border-style: dashed;
+    margin-top: 30px;
+}
